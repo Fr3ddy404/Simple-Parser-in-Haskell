@@ -1,0 +1,6 @@
+fib :: Int -> Int
+fib 0 = 0
+fib 1 = 1
+fib x = ADD (fib (SUB x 1)) (fib (SUB x 2))
+
+data A a = A a
